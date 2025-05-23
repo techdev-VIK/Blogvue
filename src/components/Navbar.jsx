@@ -19,9 +19,9 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className="hidden md:flex">
-               <div className="cursor-pointer text-4xl" onClick={() => setOpen(prev => !prev)}>
-                {!open ? "☰" : "X"}
-               </div>
+               <button className="cursor-pointer text-4xl" onClick={() => setOpen(prev => !prev)}>
+                {!open ? "☰" : "x"}
+               </button>
             </div>
         </div>
     )
